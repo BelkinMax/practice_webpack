@@ -1,0 +1,36 @@
+{
+  "name": "webpack-lessons",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^6.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.28.0",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@webpack-cli/serve": "^1.0.1",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.2.1",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
